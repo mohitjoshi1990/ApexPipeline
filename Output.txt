@@ -1,0 +1,517 @@
+
+Cycle :1
+Fetch  :(I0)MOVC,R0,#100
+DRF  :Empty
+
+<RENAME TABLE>:
+
+<IQ>:
+
+<ROB>:
+ Commit:
+
+<LSQ>:
+INTFU  :Empty
+MUL1  :Empty
+MUL2  :Empty
+DIV1  :Empty
+DIV2  :Empty
+DIV3  :Empty
+DIV4  :Empty
+MEM  :Empty
+Register Status
+R0 : 0: Valid :0 ,R1 : 0: Valid :0 ,R2 : 0: Valid :0 ,R3 : 0: Valid :0 ,R4 : 0: Valid :0 ,R5 : 0: Valid :0 ,R6 : 0: Valid :0 ,R7 : 0: Valid :0 ,R8 : 0: Valid :0 ,R9 : 0: Valid :0 ,R10 : 0: Valid :0 ,R11 : 0: Valid :0 ,R12 : 0: Valid :0 ,R13 : 0: Valid :0 ,R14 : 0: Valid :0 ,R15 : 0: Valid :0 ,Physical Register File : 
+Physical Registers ::: Register :P0: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P1: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P2: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P3: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P4: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P5: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P6: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P7: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P8: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P9: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P10: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P11: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P12: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P13: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P14: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P15: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P16: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P17: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P18: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P19: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P20: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P21: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P22: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P23: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P24: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P25: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P26: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P27: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P28: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P29: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P30: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P31: Arch Reg :: Allocated :0: Valid :0: Value :0
+
+PC Address :4004: Final instrn address :4020
+
+
+
+Cycle :2
+Fetch  :(I1)MOVC,R1,#72
+DRF  :(I0)MOVC, P0, #100
+
+<RENAME TABLE>:
+ * R0 : P0
+
+<IQ>:
+
+<ROB>:
+ Commit:
+
+<LSQ>:
+INTFU  :Empty
+MUL1  :Empty
+MUL2  :Empty
+DIV1  :Empty
+DIV2  :Empty
+DIV3  :Empty
+DIV4  :Empty
+MEM  :Empty
+Register Status
+R0 : 0: Valid :0 ,R1 : 0: Valid :0 ,R2 : 0: Valid :0 ,R3 : 0: Valid :0 ,R4 : 0: Valid :0 ,R5 : 0: Valid :0 ,R6 : 0: Valid :0 ,R7 : 0: Valid :0 ,R8 : 0: Valid :0 ,R9 : 0: Valid :0 ,R10 : 0: Valid :0 ,R11 : 0: Valid :0 ,R12 : 0: Valid :0 ,R13 : 0: Valid :0 ,R14 : 0: Valid :0 ,R15 : 0: Valid :0 ,Physical Register File : 
+Physical Registers ::: Register :P0: Arch Reg :R0: Allocated :1: Valid :1: Value :0: Register :P1: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P2: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P3: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P4: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P5: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P6: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P7: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P8: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P9: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P10: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P11: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P12: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P13: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P14: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P15: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P16: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P17: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P18: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P19: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P20: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P21: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P22: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P23: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P24: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P25: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P26: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P27: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P28: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P29: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P30: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P31: Arch Reg :: Allocated :0: Valid :0: Value :0
+
+PC Address :4008: Final instrn address :4020
+
+
+
+Cycle :3
+Fetch  :(I2)MOVC,R2,#44
+DRF  :(I1)MOVC, P1, #72
+
+<RENAME TABLE>:
+ * R0 : P0
+ * R1 : P1
+
+<IQ>:
+ * (I0)MOVC, P0, #100 :Index :15
+
+<ROB>:
+ * (I0)MOVC, P0, #100
+ Commit:
+
+<LSQ>:
+INTFU  :Empty
+MUL1  :Empty
+MUL2  :Empty
+DIV1  :Empty
+DIV2  :Empty
+DIV3  :Empty
+DIV4  :Empty
+MEM  :Empty
+Register Status
+R0 : 0: Valid :0 ,R1 : 0: Valid :0 ,R2 : 0: Valid :0 ,R3 : 0: Valid :0 ,R4 : 0: Valid :0 ,R5 : 0: Valid :0 ,R6 : 0: Valid :0 ,R7 : 0: Valid :0 ,R8 : 0: Valid :0 ,R9 : 0: Valid :0 ,R10 : 0: Valid :0 ,R11 : 0: Valid :0 ,R12 : 0: Valid :0 ,R13 : 0: Valid :0 ,R14 : 0: Valid :0 ,R15 : 0: Valid :0 ,Physical Register File : 
+Physical Registers ::: Register :P0: Arch Reg :R0: Allocated :1: Valid :1: Value :0: Register :P1: Arch Reg :R1: Allocated :1: Valid :1: Value :0: Register :P2: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P3: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P4: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P5: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P6: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P7: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P8: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P9: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P10: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P11: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P12: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P13: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P14: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P15: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P16: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P17: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P18: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P19: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P20: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P21: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P22: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P23: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P24: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P25: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P26: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P27: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P28: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P29: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P30: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P31: Arch Reg :: Allocated :0: Valid :0: Value :0
+
+PC Address :4012: Final instrn address :4020
+
+
+
+Cycle :4
+Fetch  :(I3)MOVC,R3,#4
+DRF  :(I2)MOVC, P2, #44
+
+<RENAME TABLE>:
+ * R0 : P0
+ * R1 : P1
+ * R2 : P2
+
+<IQ>:
+ * (I1)MOVC, P1, #72 :Index :15
+
+<ROB>:
+ * (I0)MOVC, P0, #100
+ * (I1)MOVC, P1, #72
+ Commit:
+
+<LSQ>:
+INTFU  :(I0)MOVC, P0, #100
+MUL1  :Empty
+MUL2  :Empty
+DIV1  :Empty
+DIV2  :Empty
+DIV3  :Empty
+DIV4  :Empty
+MEM  :Empty
+Register Status
+R0 : 0: Valid :0 ,R1 : 0: Valid :0 ,R2 : 0: Valid :0 ,R3 : 0: Valid :0 ,R4 : 0: Valid :0 ,R5 : 0: Valid :0 ,R6 : 0: Valid :0 ,R7 : 0: Valid :0 ,R8 : 0: Valid :0 ,R9 : 0: Valid :0 ,R10 : 0: Valid :0 ,R11 : 0: Valid :0 ,R12 : 0: Valid :0 ,R13 : 0: Valid :0 ,R14 : 0: Valid :0 ,R15 : 0: Valid :0 ,Physical Register File : 
+Physical Registers ::: Register :P0: Arch Reg :R0: Allocated :1: Valid :0: Value :100: Register :P1: Arch Reg :R1: Allocated :1: Valid :1: Value :0: Register :P2: Arch Reg :R2: Allocated :1: Valid :1: Value :0: Register :P3: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P4: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P5: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P6: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P7: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P8: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P9: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P10: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P11: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P12: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P13: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P14: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P15: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P16: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P17: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P18: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P19: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P20: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P21: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P22: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P23: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P24: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P25: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P26: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P27: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P28: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P29: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P30: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P31: Arch Reg :: Allocated :0: Valid :0: Value :0
+
+PC Address :4016: Final instrn address :4020
+
+
+
+Cycle :5
+Fetch  :(I4)DIV,R5,R2,R3
+DRF  :(I3)MOVC, P3, #4
+
+<RENAME TABLE>:
+ * R0 : P0
+ * R1 : P1
+ * R2 : P2
+ * R3 : P3
+
+<IQ>:
+ * (I2)MOVC, P2, #44 :Index :15
+
+<ROB>:
+ * (I1)MOVC, P1, #72
+ * (I2)MOVC, P2, #44
+ Commit:
+ * (I0)MOVC, P0, #100
+
+<LSQ>:
+INTFU  :(I1)MOVC, P1, #72
+MUL1  :Empty
+MUL2  :Empty
+DIV1  :Empty
+DIV2  :Empty
+DIV3  :Empty
+DIV4  :Empty
+MEM  :Empty
+Register Status
+R0 : 100: Valid :0 ,R1 : 0: Valid :0 ,R2 : 0: Valid :0 ,R3 : 0: Valid :0 ,R4 : 0: Valid :0 ,R5 : 0: Valid :0 ,R6 : 0: Valid :0 ,R7 : 0: Valid :0 ,R8 : 0: Valid :0 ,R9 : 0: Valid :0 ,R10 : 0: Valid :0 ,R11 : 0: Valid :0 ,R12 : 0: Valid :0 ,R13 : 0: Valid :0 ,R14 : 0: Valid :0 ,R15 : 0: Valid :0 ,Physical Register File : 
+Physical Registers ::: Register :P0: Arch Reg :R0: Allocated :1: Valid :0: Value :100: Register :P1: Arch Reg :R1: Allocated :1: Valid :0: Value :72: Register :P2: Arch Reg :R2: Allocated :1: Valid :1: Value :0: Register :P3: Arch Reg :R3: Allocated :1: Valid :1: Value :0: Register :P4: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P5: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P6: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P7: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P8: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P9: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P10: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P11: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P12: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P13: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P14: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P15: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P16: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P17: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P18: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P19: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P20: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P21: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P22: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P23: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P24: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P25: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P26: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P27: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P28: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P29: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P30: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P31: Arch Reg :: Allocated :0: Valid :0: Value :0
+
+PC Address :4020: Final instrn address :4020
+
+
+
+Cycle :6
+Fetch  :(I5)STORE,R3,R0,#72
+DRF  :(I4)DIV, P4, P2, P3
+
+<RENAME TABLE>:
+ * R0 : P0
+ * R1 : P1
+ * R2 : P2
+ * R3 : P3
+ * R5 : P4
+
+<IQ>:
+ * (I3)MOVC, P3, #4 :Index :15
+
+<ROB>:
+ * (I2)MOVC, P2, #44
+ * (I3)MOVC, P3, #4
+ Commit:
+ * (I1)MOVC, P1, #72
+
+<LSQ>:
+INTFU  :(I2)MOVC, P2, #44
+MUL1  :Empty
+MUL2  :Empty
+DIV1  :Empty
+DIV2  :Empty
+DIV3  :Empty
+DIV4  :Empty
+MEM  :Empty
+Register Status
+R0 : 100: Valid :0 ,R1 : 72: Valid :0 ,R2 : 0: Valid :0 ,R3 : 0: Valid :0 ,R4 : 0: Valid :0 ,R5 : 0: Valid :0 ,R6 : 0: Valid :0 ,R7 : 0: Valid :0 ,R8 : 0: Valid :0 ,R9 : 0: Valid :0 ,R10 : 0: Valid :0 ,R11 : 0: Valid :0 ,R12 : 0: Valid :0 ,R13 : 0: Valid :0 ,R14 : 0: Valid :0 ,R15 : 0: Valid :0 ,Physical Register File : 
+Physical Registers ::: Register :P0: Arch Reg :R0: Allocated :1: Valid :0: Value :100: Register :P1: Arch Reg :R1: Allocated :1: Valid :0: Value :72: Register :P2: Arch Reg :R2: Allocated :1: Valid :0: Value :44: Register :P3: Arch Reg :R3: Allocated :1: Valid :1: Value :0: Register :P4: Arch Reg :R5: Allocated :1: Valid :1: Value :0: Register :P5: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P6: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P7: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P8: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P9: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P10: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P11: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P12: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P13: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P14: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P15: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P16: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P17: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P18: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P19: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P20: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P21: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P22: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P23: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P24: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P25: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P26: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P27: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P28: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P29: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P30: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P31: Arch Reg :: Allocated :0: Valid :0: Value :0
+
+PC Address :4024: Final instrn address :4020
+
+
+
+Cycle :7
+Fetch  :Empty
+DRF  :(I5)STORE, P3, P0, #72
+
+<RENAME TABLE>:
+ * R0 : P0
+ * R1 : P1
+ * R2 : P2
+ * R3 : P3
+ * R5 : P4
+
+<IQ>:
+ * (I4)DIV, P4, P2, P3 :Index :15
+
+<ROB>:
+ * (I3)MOVC, P3, #4
+ * (I4)DIV, P4, P2, P3
+ Commit:
+ * (I2)MOVC, P2, #44
+
+<LSQ>:
+INTFU  :(I3)MOVC, P3, #4
+MUL1  :Empty
+MUL2  :Empty
+DIV1  :Empty
+DIV2  :Empty
+DIV3  :Empty
+DIV4  :Empty
+MEM  :Empty
+Register Status
+R0 : 100: Valid :0 ,R1 : 72: Valid :0 ,R2 : 44: Valid :0 ,R3 : 0: Valid :0 ,R4 : 0: Valid :0 ,R5 : 0: Valid :0 ,R6 : 0: Valid :0 ,R7 : 0: Valid :0 ,R8 : 0: Valid :0 ,R9 : 0: Valid :0 ,R10 : 0: Valid :0 ,R11 : 0: Valid :0 ,R12 : 0: Valid :0 ,R13 : 0: Valid :0 ,R14 : 0: Valid :0 ,R15 : 0: Valid :0 ,Physical Register File : 
+Physical Registers ::: Register :P0: Arch Reg :R0: Allocated :1: Valid :0: Value :100: Register :P1: Arch Reg :R1: Allocated :1: Valid :0: Value :72: Register :P2: Arch Reg :R2: Allocated :1: Valid :0: Value :44: Register :P3: Arch Reg :R3: Allocated :1: Valid :0: Value :4: Register :P4: Arch Reg :R5: Allocated :1: Valid :1: Value :0: Register :P5: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P6: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P7: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P8: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P9: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P10: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P11: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P12: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P13: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P14: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P15: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P16: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P17: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P18: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P19: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P20: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P21: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P22: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P23: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P24: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P25: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P26: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P27: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P28: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P29: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P30: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P31: Arch Reg :: Allocated :0: Valid :0: Value :0
+
+PC Address :4024: Final instrn address :4020
+
+
+
+Cycle :8
+Fetch  :Empty
+DRF  :Empty
+
+<RENAME TABLE>:
+ * R0 : P0
+ * R1 : P1
+ * R2 : P2
+ * R3 : P3
+ * R5 : P4
+
+<IQ>:
+ * (I5)STORE, P3, P0, #72 :Index :15
+
+<ROB>:
+ * (I4)DIV, P4, P2, P3
+ * (I5)STORE, P3, P0, #72
+ Commit:
+ * (I3)MOVC, P3, #4
+
+<LSQ>:
+ * (I5)STORE, P3, P0, #72(Head)
+INTFU  :Empty
+MUL1  :Empty
+MUL2  :Empty
+DIV1  :(I4)DIV, P4, P2, P3
+DIV2  :Empty
+DIV3  :Empty
+DIV4  :Empty
+MEM  :Empty
+Register Status
+R0 : 100: Valid :0 ,R1 : 72: Valid :0 ,R2 : 44: Valid :0 ,R3 : 4: Valid :0 ,R4 : 0: Valid :0 ,R5 : 0: Valid :0 ,R6 : 0: Valid :0 ,R7 : 0: Valid :0 ,R8 : 0: Valid :0 ,R9 : 0: Valid :0 ,R10 : 0: Valid :0 ,R11 : 0: Valid :0 ,R12 : 0: Valid :0 ,R13 : 0: Valid :0 ,R14 : 0: Valid :0 ,R15 : 0: Valid :0 ,Physical Register File : 
+Physical Registers ::: Register :P0: Arch Reg :R0: Allocated :1: Valid :0: Value :100: Register :P1: Arch Reg :R1: Allocated :1: Valid :0: Value :72: Register :P2: Arch Reg :R2: Allocated :1: Valid :0: Value :44: Register :P3: Arch Reg :R3: Allocated :1: Valid :0: Value :4: Register :P4: Arch Reg :R5: Allocated :1: Valid :1: Value :0: Register :P5: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P6: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P7: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P8: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P9: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P10: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P11: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P12: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P13: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P14: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P15: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P16: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P17: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P18: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P19: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P20: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P21: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P22: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P23: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P24: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P25: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P26: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P27: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P28: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P29: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P30: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P31: Arch Reg :: Allocated :0: Valid :0: Value :0
+
+PC Address :4024: Final instrn address :4020
+
+
+
+Cycle :9
+Fetch  :Empty
+DRF  :Empty
+
+<RENAME TABLE>:
+ * R0 : P0
+ * R1 : P1
+ * R2 : P2
+ * R3 : P3
+ * R5 : P4
+
+<IQ>:
+
+<ROB>:
+ * (I4)DIV, P4, P2, P3
+ * (I5)STORE, P3, P0, #72
+ Commit:
+
+<LSQ>:
+ * (I5)STORE, P3, P0, #72(Head)
+INTFU  :(I5)STORE, P3, P0, #72
+MUL1  :Empty
+MUL2  :Empty
+DIV1  :Empty
+DIV2  :(I4)DIV, P4, P2, P3
+DIV3  :Empty
+DIV4  :Empty
+MEM  :Empty
+Register Status
+R0 : 100: Valid :0 ,R1 : 72: Valid :0 ,R2 : 44: Valid :0 ,R3 : 4: Valid :0 ,R4 : 0: Valid :0 ,R5 : 0: Valid :0 ,R6 : 0: Valid :0 ,R7 : 0: Valid :0 ,R8 : 0: Valid :0 ,R9 : 0: Valid :0 ,R10 : 0: Valid :0 ,R11 : 0: Valid :0 ,R12 : 0: Valid :0 ,R13 : 0: Valid :0 ,R14 : 0: Valid :0 ,R15 : 0: Valid :0 ,Physical Register File : 
+Physical Registers ::: Register :P0: Arch Reg :R0: Allocated :1: Valid :0: Value :100: Register :P1: Arch Reg :R1: Allocated :1: Valid :0: Value :72: Register :P2: Arch Reg :R2: Allocated :1: Valid :0: Value :44: Register :P3: Arch Reg :R3: Allocated :1: Valid :0: Value :4: Register :P4: Arch Reg :R5: Allocated :1: Valid :1: Value :0: Register :P5: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P6: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P7: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P8: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P9: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P10: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P11: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P12: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P13: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P14: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P15: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P16: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P17: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P18: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P19: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P20: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P21: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P22: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P23: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P24: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P25: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P26: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P27: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P28: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P29: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P30: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P31: Arch Reg :: Allocated :0: Valid :0: Value :0
+
+PC Address :4024: Final instrn address :4020
+
+
+
+Cycle :10
+Fetch  :Empty
+DRF  :Empty
+
+<RENAME TABLE>:
+ * R0 : P0
+ * R1 : P1
+ * R2 : P2
+ * R3 : P3
+ * R5 : P4
+
+<IQ>:
+
+<ROB>:
+ * (I4)DIV, P4, P2, P3
+ * (I5)STORE, P3, P0, #72
+ Commit:
+
+<LSQ>:
+ * (I5)STORE, P3, P0, #72(Head)
+INTFU  :Empty
+MUL1  :Empty
+MUL2  :Empty
+DIV1  :Empty
+DIV2  :Empty
+DIV3  :(I4)DIV, P4, P2, P3
+DIV4  :Empty
+MEM  :Empty
+Register Status
+R0 : 100: Valid :0 ,R1 : 72: Valid :0 ,R2 : 44: Valid :0 ,R3 : 4: Valid :0 ,R4 : 0: Valid :0 ,R5 : 0: Valid :0 ,R6 : 0: Valid :0 ,R7 : 0: Valid :0 ,R8 : 0: Valid :0 ,R9 : 0: Valid :0 ,R10 : 0: Valid :0 ,R11 : 0: Valid :0 ,R12 : 0: Valid :0 ,R13 : 0: Valid :0 ,R14 : 0: Valid :0 ,R15 : 0: Valid :0 ,Physical Register File : 
+Physical Registers ::: Register :P0: Arch Reg :R0: Allocated :1: Valid :0: Value :100: Register :P1: Arch Reg :R1: Allocated :1: Valid :0: Value :72: Register :P2: Arch Reg :R2: Allocated :1: Valid :0: Value :44: Register :P3: Arch Reg :R3: Allocated :1: Valid :0: Value :4: Register :P4: Arch Reg :R5: Allocated :1: Valid :1: Value :0: Register :P5: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P6: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P7: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P8: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P9: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P10: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P11: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P12: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P13: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P14: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P15: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P16: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P17: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P18: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P19: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P20: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P21: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P22: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P23: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P24: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P25: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P26: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P27: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P28: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P29: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P30: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P31: Arch Reg :: Allocated :0: Valid :0: Value :0
+
+PC Address :4024: Final instrn address :4020
+
+
+
+Cycle :11
+Fetch  :Empty
+DRF  :Empty
+
+<RENAME TABLE>:
+ * R0 : P0
+ * R1 : P1
+ * R2 : P2
+ * R3 : P3
+ * R5 : P4
+
+<IQ>:
+
+<ROB>:
+ * (I4)DIV, P4, P2, P3
+ * (I5)STORE, P3, P0, #72
+ Commit:
+
+<LSQ>:
+ * (I5)STORE, P3, P0, #72(Head)
+INTFU  :Empty
+MUL1  :Empty
+MUL2  :Empty
+DIV1  :Empty
+DIV2  :Empty
+DIV3  :Empty
+DIV4  :(I4)DIV, P4, P2, P3
+MEM  :Empty
+Register Status
+R0 : 100: Valid :0 ,R1 : 72: Valid :0 ,R2 : 44: Valid :0 ,R3 : 4: Valid :0 ,R4 : 0: Valid :0 ,R5 : 0: Valid :0 ,R6 : 0: Valid :0 ,R7 : 0: Valid :0 ,R8 : 0: Valid :0 ,R9 : 0: Valid :0 ,R10 : 0: Valid :0 ,R11 : 0: Valid :0 ,R12 : 0: Valid :0 ,R13 : 0: Valid :0 ,R14 : 0: Valid :0 ,R15 : 0: Valid :0 ,Physical Register File : 
+Physical Registers ::: Register :P0: Arch Reg :R0: Allocated :1: Valid :0: Value :100: Register :P1: Arch Reg :R1: Allocated :1: Valid :0: Value :72: Register :P2: Arch Reg :R2: Allocated :1: Valid :0: Value :44: Register :P3: Arch Reg :R3: Allocated :1: Valid :0: Value :4: Register :P4: Arch Reg :R5: Allocated :1: Valid :0: Value :11: Register :P5: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P6: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P7: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P8: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P9: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P10: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P11: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P12: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P13: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P14: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P15: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P16: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P17: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P18: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P19: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P20: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P21: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P22: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P23: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P24: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P25: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P26: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P27: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P28: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P29: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P30: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P31: Arch Reg :: Allocated :0: Valid :0: Value :0
+
+PC Address :4024: Final instrn address :4020
+
+
+
+Cycle :12
+Fetch  :Empty
+DRF  :Empty
+
+<RENAME TABLE>:
+ * R0 : P0
+ * R1 : P1
+ * R2 : P2
+ * R3 : P3
+ * R5 : P4
+
+<IQ>:
+
+<ROB>:
+ * (I5)STORE, P3, P0, #72
+ Commit:
+ * (I4)DIV, P4, P2, P3
+
+<LSQ>:
+INTFU  :Empty
+MUL1  :Empty
+MUL2  :Empty
+DIV1  :Empty
+DIV2  :Empty
+DIV3  :Empty
+DIV4  :Empty
+MEM  :(I5)STORE, P3, P0, #72
+Register Status
+R0 : 100: Valid :0 ,R1 : 72: Valid :0 ,R2 : 44: Valid :0 ,R3 : 4: Valid :0 ,R4 : 0: Valid :0 ,R5 : 11: Valid :0 ,R6 : 0: Valid :0 ,R7 : 0: Valid :0 ,R8 : 0: Valid :0 ,R9 : 0: Valid :0 ,R10 : 0: Valid :0 ,R11 : 0: Valid :0 ,R12 : 0: Valid :0 ,R13 : 0: Valid :0 ,R14 : 0: Valid :0 ,R15 : 0: Valid :0 ,Physical Register File : 
+Physical Registers ::: Register :P0: Arch Reg :R0: Allocated :1: Valid :0: Value :100: Register :P1: Arch Reg :R1: Allocated :1: Valid :0: Value :72: Register :P2: Arch Reg :R2: Allocated :1: Valid :0: Value :44: Register :P3: Arch Reg :R3: Allocated :1: Valid :0: Value :4: Register :P4: Arch Reg :R5: Allocated :1: Valid :0: Value :11: Register :P5: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P6: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P7: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P8: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P9: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P10: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P11: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P12: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P13: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P14: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P15: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P16: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P17: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P18: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P19: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P20: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P21: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P22: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P23: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P24: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P25: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P26: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P27: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P28: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P29: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P30: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P31: Arch Reg :: Allocated :0: Valid :0: Value :0
+
+PC Address :4024: Final instrn address :4020
+
+
+
+Cycle :13
+Fetch  :Empty
+DRF  :Empty
+
+<RENAME TABLE>:
+ * R0 : P0
+ * R1 : P1
+ * R2 : P2
+ * R3 : P3
+ * R5 : P4
+
+<IQ>:
+
+<ROB>:
+ Commit:
+ * (I5)STORE, P3, P0, #72
+
+<LSQ>:
+INTFU  :Empty
+MUL1  :Empty
+MUL2  :Empty
+DIV1  :Empty
+DIV2  :Empty
+DIV3  :Empty
+DIV4  :Empty
+MEM  :(I5)STORE, P3, P0, #72
+Register Status
+R0 : 100: Valid :0 ,R1 : 72: Valid :0 ,R2 : 44: Valid :0 ,R3 : 4: Valid :0 ,R4 : 0: Valid :0 ,R5 : 11: Valid :0 ,R6 : 0: Valid :0 ,R7 : 0: Valid :0 ,R8 : 0: Valid :0 ,R9 : 0: Valid :0 ,R10 : 0: Valid :0 ,R11 : 0: Valid :0 ,R12 : 0: Valid :0 ,R13 : 0: Valid :0 ,R14 : 0: Valid :0 ,R15 : 0: Valid :0 ,Physical Register File : 
+Physical Registers ::: Register :P0: Arch Reg :R0: Allocated :1: Valid :0: Value :100: Register :P1: Arch Reg :R1: Allocated :1: Valid :0: Value :72: Register :P2: Arch Reg :R2: Allocated :1: Valid :0: Value :44: Register :P3: Arch Reg :R3: Allocated :1: Valid :0: Value :4: Register :P4: Arch Reg :R5: Allocated :1: Valid :0: Value :11: Register :P5: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P6: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P7: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P8: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P9: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P10: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P11: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P12: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P13: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P14: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P15: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P16: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P17: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P18: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P19: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P20: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P21: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P22: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P23: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P24: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P25: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P26: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P27: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P28: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P29: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P30: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P31: Arch Reg :: Allocated :0: Valid :0: Value :0
+
+PC Address :4024: Final instrn address :4020
+
+
+
+Cycle :14
+Fetch  :Empty
+DRF  :Empty
+
+<RENAME TABLE>:
+ * R0 : P0
+ * R1 : P1
+ * R2 : P2
+ * R3 : P3
+ * R5 : P4
+
+<IQ>:
+
+<ROB>:
+ Commit:
+
+<LSQ>:
+INTFU  :Empty
+MUL1  :Empty
+MUL2  :Empty
+DIV1  :Empty
+DIV2  :Empty
+DIV3  :Empty
+DIV4  :Empty
+MEM  :(I5)STORE, P3, P0, #72
+Register Status
+R0 : 100: Valid :0 ,R1 : 72: Valid :0 ,R2 : 44: Valid :0 ,R3 : 4: Valid :0 ,R4 : 0: Valid :0 ,R5 : 11: Valid :0 ,R6 : 0: Valid :0 ,R7 : 0: Valid :0 ,R8 : 0: Valid :0 ,R9 : 0: Valid :0 ,R10 : 0: Valid :0 ,R11 : 0: Valid :0 ,R12 : 0: Valid :0 ,R13 : 0: Valid :0 ,R14 : 0: Valid :0 ,R15 : 0: Valid :0 ,Physical Register File : 
+Physical Registers ::: Register :P0: Arch Reg :R0: Allocated :1: Valid :0: Value :100: Register :P1: Arch Reg :R1: Allocated :1: Valid :0: Value :72: Register :P2: Arch Reg :R2: Allocated :1: Valid :0: Value :44: Register :P3: Arch Reg :R3: Allocated :1: Valid :0: Value :4: Register :P4: Arch Reg :R5: Allocated :1: Valid :0: Value :11: Register :P5: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P6: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P7: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P8: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P9: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P10: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P11: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P12: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P13: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P14: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P15: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P16: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P17: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P18: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P19: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P20: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P21: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P22: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P23: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P24: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P25: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P26: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P27: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P28: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P29: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P30: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P31: Arch Reg :: Allocated :0: Valid :0: Value :0
+
+PC Address :4024: Final instrn address :4020
+
+
+
+Cycle :15
+Fetch  :Empty
+DRF  :Empty
+
+<RENAME TABLE>:
+ * R0 : P0
+ * R1 : P1
+ * R2 : P2
+ * R3 : P3
+ * R5 : P4
+
+<IQ>:
+
+<ROB>:
+ Commit:
+
+<LSQ>:
+INTFU  :Empty
+MUL1  :Empty
+MUL2  :Empty
+DIV1  :Empty
+DIV2  :Empty
+DIV3  :Empty
+DIV4  :Empty
+MEM  :Empty
+Register Status
+R0 : 100: Valid :0 ,R1 : 72: Valid :0 ,R2 : 44: Valid :0 ,R3 : 4: Valid :0 ,R4 : 0: Valid :0 ,R5 : 11: Valid :0 ,R6 : 0: Valid :0 ,R7 : 0: Valid :0 ,R8 : 0: Valid :0 ,R9 : 0: Valid :0 ,R10 : 0: Valid :0 ,R11 : 0: Valid :0 ,R12 : 0: Valid :0 ,R13 : 0: Valid :0 ,R14 : 0: Valid :0 ,R15 : 0: Valid :0 ,Physical Register File : 
+Physical Registers ::: Register :P0: Arch Reg :R0: Allocated :1: Valid :0: Value :100: Register :P1: Arch Reg :R1: Allocated :1: Valid :0: Value :72: Register :P2: Arch Reg :R2: Allocated :1: Valid :0: Value :44: Register :P3: Arch Reg :R3: Allocated :1: Valid :0: Value :4: Register :P4: Arch Reg :R5: Allocated :1: Valid :0: Value :11: Register :P5: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P6: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P7: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P8: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P9: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P10: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P11: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P12: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P13: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P14: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P15: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P16: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P17: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P18: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P19: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P20: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P21: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P22: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P23: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P24: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P25: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P26: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P27: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P28: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P29: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P30: Arch Reg :: Allocated :0: Valid :0: Value :0: Register :P31: Arch Reg :: Allocated :0: Valid :0: Value :0
+
+PC Address :4024: Final instrn address :4020
+
+
+Simulation time in clock cycles simulated:15
+Instructions completed:6
+Achieved CPI :0.4
